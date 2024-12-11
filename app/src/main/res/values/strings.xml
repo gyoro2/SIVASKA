@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SIVASAK</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_data_kendaraan">Data Kendaraan</string>
+    <string name="title_ajukan_komplain">Ajukan Komplain</string>
+    <string name="title_logout">Logout</string>
+    <string name="cancel_action">Batal</string>
+    <string name="success_title">Sukses</string>
+    <string name="success_message">Komplain anda berhasil dikirim</string>
+    <string name="ok">OK</string>
+    <string name="profile_saved_successfully">Profile saved successfully</string>
+
+</resources>

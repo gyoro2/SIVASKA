@@ -1,0 +1,30 @@
+{
+"project_info": {
+    "project_number": "100543886143",
+    "project_id": "ptimobile-d3a69",
+    "storage_bucket": "ptimobile-d3a69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100543886143:android:bd96ec26284c34694a198a",
+        "android_client_info": {
+          "package_name": "com.PTPGP"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmVr4Joegbya8YZv7NoAPMtMV-4a_xXA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+

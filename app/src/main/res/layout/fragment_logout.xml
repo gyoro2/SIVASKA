@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <!-- Card untuk dialog -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLogout"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <!-- Teks Pertanyaan -->
+            <TextView
+                android:id="@+id/textLogoutQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda ingin keluar?"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <!-- Tombol Log Out -->
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textLogoutQuestion"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="8dp"
+                android:text="Log Out"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/red"
+                android:textStyle="bold" />
+
+            <!-- Tombol Batal -->
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textLogoutQuestion"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentEnd="true"
+                android:text="Batal"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/gray"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

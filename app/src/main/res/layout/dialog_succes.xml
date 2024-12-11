@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Icon Success -->
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_succes"
+        android:contentDescription="Success Icon"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_success_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sukses"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Success Message -->
+    <TextView
+        android:id="@+id/tv_success_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Komplain anda berhasil dikirim."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <!-- OK Button -->
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="8dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

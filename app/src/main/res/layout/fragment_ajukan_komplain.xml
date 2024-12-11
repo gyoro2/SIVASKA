@@ -1,0 +1,97 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Icon User -->
+    <ImageView
+        android:id="@+id/iconUser"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_user"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:padding="12dp"
+        android:text="Ajukan Komplain"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/iconUser"
+        android:layout_marginTop="16dp" />
+
+    <!-- Input Field for Nopol Kendaraan -->
+    <EditText
+        android:id="@+id/inputNopol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nopol Kendaraan"
+        android:layout_below="@id/headerText"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <!-- Dropdown for Jenis Kendaraan -->
+    <Spinner
+        android:id="@+id/spinnerJenisKendaraan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputNopol"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp" />
+
+    <!-- Additional Input Field -->
+    <EditText
+        android:id="@+id/inputSTNK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan No. STNK"
+        android:layout_below="@id/spinnerJenisKendaraan"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/Keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Keterangan"
+        android:layout_below="@id/inputSTNK"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonAjukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajukan"
+        android:layout_below="@id/Keterangan"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textStyle="bold" />
+</RelativeLayout>
